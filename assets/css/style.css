@@ -1,8 +1,90 @@
-#circle {
+body {
 
-    background-color: green;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    font-family: sans-serif;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%230aea4c' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+h1 {
+
+    font-size: 250%;
+
+}
+
+header {
+
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    padding: 20px 0px;
+
+}
+main {
+
+    width: 500px;
+    height: 300px;
+    background-color: beige;
+    padding-top: 20px;
+    margin: 5px;
+    color: green;
+}
+
+#goalDiv {
+
+    height: 100px;
+    width: 250px;
+    background-color: lightgreen;
+    margin: 5px;
+    display: block;
+    position: relative;
+    float: left;
+
+}
+
+#wins-losses {
+
+    width: 100px;
+    height: 90px;
+    margin: 5px;
+    padding-top: 10px;
+    position: relative;
+    float: left;
+    background-color: turquoise;
+
+}
+
+#images {
+
+    clear:both;
+    margin: 10px;
+
+}
+
+img {
+
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+#scoreDiv {
+
+    background-color: lightseagreen;
+    padding: 5px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+#current-scoreDiv {
+
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+    background-color: lightseagreen;
+    padding: 5px;
 
 }
